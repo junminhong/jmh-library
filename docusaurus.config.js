@@ -6,12 +6,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '一位在新手村的工程師',
+  title: '啊嗨ㄟ典藏庫',
   tagline: 'Build products that help people',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/avatar.png',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://library.wowkit.net/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -39,6 +39,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: '/'
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -62,12 +63,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/avatar.png',
       navbar: {
         title: '啊嗨ㄟ典藏庫',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/avatar.png',
         },
         items: [
           {
@@ -75,6 +76,7 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: '學習筆記',
+            to: '/'
           },
           {to: '/blog', label: '知識點小記', position: 'left'},
           {
@@ -87,33 +89,37 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'LinkedIn',
-                href: 'https://www.linkedin.com/in/junminhong/',
-              },
-            ],
-          },
-          {
-            title: 'Contact',
-            items: [
-              {
-                label: 'Email',
-                href: 'mailto:junminhong1110@gmail.com',
-              },
-            ],
-          },
+          // {
+          //   title: 'Docs',
+          //   items: [
+          //     {
+          //       label: 'Tutorial',
+          //       to: '/docs/intro',
+          //     },
+          //   ],
+          // },
+          // {
+          //   title: 'Community',
+          //   items: [
+          //     {
+          //       label: 'LinkedIn',
+          //       href: 'https://www.linkedin.com/in/junminhong/',
+          //     },
+          //     {
+          //       label: 'Email',
+          //       href: 'mailto:junminhong1110@gmail.com',
+          //     },
+          //   ],
+          // },
+          // {
+          //   title: 'More',
+          //   items: [
+          //     {
+          //       label: 'About',
+          //       href: '/',
+          //     },
+          //   ],
+          // },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} junminhong, easy enjoy life.`,
       },
