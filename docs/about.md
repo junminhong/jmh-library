@@ -8,7 +8,11 @@ sidebar_position: 1
 ## 關於我
 My name is junminhong, you can call me jasper.
 
-無聊寫寫筆記呵呵
+踩過很多坑, 但時間久了就忘記了過程...
+
+希望透過記錄的方式, 記錄著學習路上走過的點點滴滴...
+
+📚 期望讀者能夠在這邊找到很棒的寶藏！
 
 
 ### 學習目標

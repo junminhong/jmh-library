@@ -5,7 +5,7 @@ sidebar_position: 2
 # 
 
 ## Summary
-現任全端開發工程師, 主要使用Ruby on Rails和React.js進行產品開發, 具功能架構規劃、產品維運等經驗。
+現任全端開發工程師, 主要使用Ruby on Rails和React.js進行產品開發, 具功能架構規劃、產品維運等經驗...
 
 ## Experiences
 #### Full-stack product developer - Yourator, 2022年4月 ~ now
