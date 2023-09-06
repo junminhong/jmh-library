@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '啊嗨ㄟ典藏庫',
+  title: '哇ㄟ柑仔店',
   tagline: 'Build products that help people',
   favicon: 'img/avatar.png',
 
@@ -65,7 +65,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/avatar.png',
       navbar: {
-        title: '啊嗨ㄟ典藏庫',
+        title: '哇ㄟ柑仔店',
         logo: {
           alt: 'My Site Logo',
           src: 'img/avatar.png',

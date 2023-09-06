@@ -21,7 +21,11 @@ My name is junminhong, you can call me jasper.
 - Frontend Tech Stack
 - Practice my english skills 😆
 
+### 如果有任何想法想討論, 歡迎透過以下方式與我聯繫
+- [junminhong1110@gmail.com](mailto:junminhong1110@gmail.com)
+- [Linkedin](https://www.linkedin.com/in/junminhong/)
+- [Github](https://github.com/junminhong)
+
 ## 網站說明
 - 學習筆記: 主要會根據整個系列建置完整的學習文件
 - 知識點小記: 主要記錄平常學習遇到的雷坑
-

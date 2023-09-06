@@ -34,7 +34,7 @@ sidebar_position: 2
 - 協助前端設計師夥伴, 將設計好的網頁樣板整合
 
 ## Project
-#### 👍🏻 [個人ㄟ典藏庫](https://library.wowkit.net/) - 學習筆記、知識點小記存放處
+#### 👍🏻 [哇ㄟ柑仔店](https://library.wowkit.net/) - 學習筆記、知識點小記存放處
 - 記錄下學習路上遇到的點點滴滴
 - 想更了解我? 不仿進來看看吧
 
