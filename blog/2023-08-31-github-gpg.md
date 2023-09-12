@@ -1,6 +1,7 @@
 ---
 slug: github-gpg
 title: Github GPG - 來為你的commit加個Verified吧
+description: 透過GPG讓每個git commit都擁有屬於自己的簽名, 以防止有人盜用自己的名稱
 authors: [junminhong]
 tags: [github, gpg]
 ---

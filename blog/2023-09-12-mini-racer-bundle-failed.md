@@ -1,6 +1,7 @@
 ---
 slug: mini-racer-bundle-failed
 title: mini-racer gem install failed
+description: 記錄在安裝mini-racer gem出現的錯誤以及解決思路
 authors: [junminhong]
 tags: [rails, gem, mini-racer, libv8-node]
 ---
