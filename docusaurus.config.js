@@ -55,6 +55,12 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+        },
       }),
     ],
   ],
@@ -63,6 +69,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
+      metadata: [{name: 'keywords', content: 'wowkit, blog, tutorial, dev'}],
       image: 'img/avatar.png',
       navbar: {
         title: '哇ㄟ柑仔店',
