@@ -1,5 +1,5 @@
 ---
-slug: google-search-console-no-index
+slug: google-search-console-index-error
 title: 排查google search console出現無法剖析結構化資料的問題
 description: 排查google search console警告無法剖析結構化資料的問題
 authors: [junminhong]
