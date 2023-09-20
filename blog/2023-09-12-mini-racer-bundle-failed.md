@@ -12,7 +12,7 @@ tags: [rails, gem, mini-racer, libv8-node]
 
 ## 進入排查程序
 當在做bundle install的時候遇到了這個錯誤訊息
-![mini-racer-bundle-error](/blog_image/mini-racer-bundle-error.png)
+![mini-racer-bundle-error](/blog-image/mini-racer-bundle-error.png)
 
 於是乎呢！我就直接使用google大法把這段錯誤訊息貼上查詢, 不外乎就會得到一些解答
 

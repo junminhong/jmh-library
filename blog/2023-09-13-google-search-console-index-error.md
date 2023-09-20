@@ -9,20 +9,20 @@ tags: [google, seo, google-search-console]
 ## 前言
 最近google search console警告網頁出現了
 
-![google search console的警告訊息](/blog_image/google-search-console-struct-failed/google-search-console.png)
+![google search console的警告訊息](/blog-image/google-search-console-struct-failed/google-search-console.png)
 
 ## 排查前熱身
 google 本身有提供兩個線上工具可以善用
 
 ### [複合式搜尋結果測試](https://search.google.com/test/rich-results)
 - 將你想要測試的網址貼上, 並等待個幾分鐘的處理時間
-![複合式搜尋結果測試網站圖](/blog_image/google-search-console-struct-failed/rich-results-test-website.png)
+![複合式搜尋結果測試網站圖](/blog-image/google-search-console-struct-failed/rich-results-test-website.png)
 - 接著你就會看到測試的結果, 然後你就可以根據網站給你的提示進行修正即可
-![複合式搜尋結果測試結果](/blog_image/google-search-console-struct-failed/rich-results-test-website-result.png)
+![複合式搜尋結果測試結果](/blog-image/google-search-console-struct-failed/rich-results-test-website-result.png)
 
 ### [結構定義標記驗證工具](https://validator.schema.org/)
 - 將你想要測試的網址貼上, 並等待個幾分鐘的處理時間
-![結構定義標記驗證工具網站圖](/blog_image/google-search-console-struct-failed/schema-test-website.png)
+![結構定義標記驗證工具網站圖](/blog-image/google-search-console-struct-failed/schema-test-website.png)
 - 一樣根據網站提供的資訊進行修正即可
 
 ## 排查過程
