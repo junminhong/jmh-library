@@ -14,7 +14,7 @@ tags: [ubuntu, mysql, ibtmp1, disk space]
 根據排查結果發現`mysql`裡面有一個檔案佔用磁碟容量非常多
 ```sql
 --- 可以使用這串SQL query查出目前佔用容量最大的file, 可以發現ibtmp1 file容量非常大
-SELECT FILE_NAME, FILE_TYPE, TABLESPACE_NAME, (TOTAL_EXTENTS * EXTENT_SIZE) / 1024 / 1024 / 1024 AS 'Current Size in GB'
+SELECT FILE_NAME, FILE_TYPE, TABLESPACE_NAME, (TOTAL_EXTENTS * EXTENT_SIZE) / 1024 / 1024 / 1024 AS 'total size(GB)'
 FROM INFORMATION_SCHEMA.FILES
 ORDER BY `total size(GB)` DESC;
 ```
