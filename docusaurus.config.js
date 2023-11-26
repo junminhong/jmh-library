@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '哇ㄟ柑仔店',
+  title: '網頁求生記',
   tagline: 'Build products that help people',
   favicon: 'img/avatar.png',
 
@@ -76,7 +76,7 @@ const config = {
       metadata: [{name: 'keywords', content: 'wowkit, blog, tutorial, dev'}],
       image: 'img/avatar.png',
       navbar: {
-        title: '哇ㄟ柑仔店',
+        title: '網頁求生記',
         logo: {
           alt: 'My Site Logo',
           src: 'img/avatar.png',
