@@ -91,6 +91,11 @@ const config = {
           },
           {to: '/blog', label: '知識點小記', position: 'left'},
           {
+            href: 'https://www.facebook.com/jasper.web.dev',
+            label: 'Follow',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/junminhong',
             label: 'GitHub',
             position: 'right',

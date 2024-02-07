@@ -25,6 +25,7 @@ My name is junminhong, you can call me jasper.
 - [junminhong1110@gmail.com](mailto:junminhong1110@gmail.com)
 - [Linkedin](https://www.linkedin.com/in/junminhong/)
 - [Github](https://github.com/junminhong)
+- [Facebook](https://www.facebook.com/jasper.web.dev)
 
 ## 網站說明
 - 學習筆記: 主要會根據整個系列建置完整的學習文件
