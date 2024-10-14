@@ -6,8 +6,8 @@ const darkTheme = themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '網頁求生記',
-  tagline: 'Build products that help people',
+  title: '科技求生記',
+  tagline: 'Follow me to give you new information of interest',
   favicon: 'img/avatar.png',
 
   // Set the production url of your site here
@@ -32,6 +32,19 @@ const config = {
     locales: ['en', 'zh-TW'],
   },
 
+  // plugins: [
+  //   [
+  //     "@docusaurus/plugin-content-docs",
+  //     /** @type {import('@docusaurus/plugin-content-docs').Options} */
+  //     {
+  //       id: "lab",
+  //       path: "lab",
+  //       routeBasePath: "lab",
+  //       sidebarPath: require.resolve("./labSidebars.js"),
+  //     },
+  //   ],
+  // ],
+
   presets: [
     [
       'classic',
@@ -39,7 +52,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: '/'
+          routeBasePath: '/notes'
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -47,6 +60,7 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          routeBasePath: '/'
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -76,20 +90,31 @@ const config = {
       metadata: [{name: 'keywords', content: 'wowkit, blog, tutorial, dev'}],
       image: 'img/avatar.png',
       navbar: {
-        title: '網頁求生記',
+        title: '科技求生記',
         logo: {
-          alt: 'My Site Logo',
+          alt: '科技求生記',
           src: 'img/avatar.png',
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'notesSidebar',
             position: 'left',
-            label: '學習筆記',
-            to: '/'
+            label: 'Notes',
+            to: '/notes'
           },
-          {to: '/blog', label: '知識點小記', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
+          // {
+          //   sidebarId: 'labSidebar',
+          //   position: 'left',
+          //   label: 'Lab',
+          //   to: '/lab'
+          // },
+          {
+            href: '/about',
+            label: 'About',
+            position: 'right',
+          },
           {
             href: 'https://www.facebook.com/jasper.web.dev',
             label: 'Follow',
