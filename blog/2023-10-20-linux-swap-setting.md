@@ -7,14 +7,14 @@ tags: [linux, swap, ram, tutorial, gce, google, google compute engine, aws, azur
 
 ## 懶人包
 ```bash
-# 使用fallocate 創建出一個4G的swapfile.1
-sudo fallocate -l 4G /var/swapfile.1
+# 使用fallocate 創建出一個4G的swapfile
+sudo fallocate -l 4G /var/swapfile
 # 更改檔案權限
-sudo chmod 600 /var/swapfile.1
+sudo chmod 600 /var/swapfile
 # 將檔案設置成swap file
-sudo mkswap /var/swapfile.1
+sudo mkswap /var/swapfile
 # 啟用記憶體交換空間
-sudo swapon /var/swapfile.1
+sudo swapon /var/swapfile
 ```
 > 都出大事了, 還在慢慢看教學文章, 懶人包複製貼上, 直接搞定😆
 
@@ -69,23 +69,23 @@ docker stats
 > 這邊提供個簡單的計算方法: 實體記憶體 * 2 = 虛擬記憶體
 
 ```bash
-sudo fallocate -l 4G /var/swapfile.1
+sudo fallocate -l 4G /var/swapfile
 ```
 
 #### 設定檔案權限
 為了安全性的問題, 這個檔案只能被root讀寫
 ```bash
-sudo chmod 600 /var/swapfile.1
+sudo chmod 600 /var/swapfile
 ```
 
 #### 將檔案設置為記憶體交換空間
 ```bash
-sudo mkswap /var/swapfile.1
+sudo mkswap /var/swapfile
 ```
 
 #### 啟用記憶體交換空間
 ```bash
-sudo swapon /var/swapfile.1
+sudo swapon /var/swapfile
 ```
 
 #### 查看記憶體交換空間
@@ -107,7 +107,7 @@ grep -i swap /proc/meminfo
 ```bash
 vim /etc/fstab
 # 加入這段
-/swapfile swap swap defaults 0 0
+/var/swapfile swap swap defaults 0 0
 ```
 
 #### 查看記憶體交換空間優先度
@@ -131,7 +131,7 @@ vm.swappiness=10
 ## 刪除記憶體交換空間檔案
 ```bash
 # 停用記憶體交換空間
-sudo swapoff -v /var/swapfile.1
+sudo swapoff -v /var/swapfile
 # 刪除檔案
-sudo rm /var/swapfile.1
+sudo rm /var/swapfile
 ```
