@@ -170,6 +170,11 @@ const config = {
         additionalLanguages: ['ruby', 'go', 'bash', 'json', 'diff'],
       },
     }),
+  
+  // for docusaurus/faster
+  future: {
+    experimental_faster: true,
+  },
 };
 
 module.exports = config;
