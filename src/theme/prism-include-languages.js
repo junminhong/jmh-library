@@ -13,7 +13,6 @@ export default function prismIncludeLanguages(PrismObject) {
   globalThis.Prism = PrismObject;
   additionalLanguages.forEach((lang) => {
     // eslint-disable-next-line global-require, import/no-dynamic-require
-    console.log(lang)
     require(`prismjs/components/prism-${lang}`);
   });
   delete globalThis.Prism;
