@@ -37,7 +37,7 @@ sudo apt-get update
 sudo apt-get install make git gcc build-essential pkgconf libtool libsystemd-dev libprotobuf-c-dev libcap-dev libseccomp-dev libyajl-dev go-md2man autoconf python3 automake golang libgpgme-dev man conmon passt uidmap netavark
 ```
 ### Compile podman
-```
+```bash
 git clone https://github.com/containers/podman.git
 cd podman
 git checkout v5.3.1
@@ -71,8 +71,7 @@ podman info --debug
 ```
 
 ## 常見錯誤
-- 如果遇到這種訊息，可以忽略它
-- If you encounter this message, you can ignore it
+- 如果遇到這種訊息，可以忽略它 (If you encounter this message, you can ignore it)
 ```bash
 troff:<standard input>:213: warning [p 4, 2.0i]: cannot adjust line
 ```
