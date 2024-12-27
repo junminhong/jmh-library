@@ -9,6 +9,8 @@ tags: [Podman, Quadlet]
 
 最近在導入 Podman，所以記錄一下安裝流程。
 
+I'm importing Podman recently, so I'll record the installation process.
+
 ## 遇到的問題
 預計透過 Podman 的 Quadlet 工具，使用 systemd 來管理 container，筆者覺得這個做法跟之前用 docker 的方式截然不同，在使用過後覺得蠻有趣的，以後會再針對這個工具寫篇文章來分享使用心得。
 
@@ -16,8 +18,16 @@ tags: [Podman, Quadlet]
 
 為了使用這個功能，就需要安裝 Podman 的最新版本，於是乎整理了一篇來分享如何手動安裝最新版本的 Podman。
 
+In the early stage, I reviewed Podman's Quadlet tool and used systemd to manage containers. The author felt that this approach was different from the previous method of using docker. After using it, I found it quite interesting. I will write an article about this tool to share my experience in the future.
+
+Currently, the Podman version installed directly across apt in Ubuntu 24.04 will be 4.9.3, but the NetworkAlias ​​I want to use was imported only in [v5.2.0](https://github.com/containers/podlet/issues/110).
+
+In order to use this feature, you need to install the latest version of Podman, so I compiled an article to share how to manually install the latest version of Podman.
+
 ## Installation
 接下來的安裝步驟會比較複雜些，盡量以未來還能看得懂的方式敘述。
+
+The next installation steps will be more complicated, so try to describe them in a way that can be understood later.
 
 ### Install dependency
 ```bash
@@ -62,6 +72,9 @@ podman info --debug
 
 ## 常見錯誤
 - 如果遇到這種訊息，可以忽略它
+- If you encounter this message, you can ignore it
 ```bash
 troff:<standard input>:213: warning [p 4, 2.0i]: cannot adjust line
 ```
+
+**Translated with the help of Google Translate.**
