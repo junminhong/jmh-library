@@ -3,7 +3,7 @@ slug: local-run-llama-3-2-with-continue
 title: 使用 Continue 和 LLama 3.2：本地化大模型的運行與應用
 description: 本篇文章將介紹如何結合 Continue 框架與 LLaMA 3.2 模型，實現本地化大語言模型的運行與應用。從環境設置、模型下載，到實際應用的步驟解析，幫助開發者在不依賴雲端的情況下，充分利用大模型的能力進行自然語言處理任務。我們還將探討本地化運行的優勢與挑戰，並提供實際應用場景的案例分析。
 authors: [junminhong]
-tags: [
+keywords: [
   "LLama 3.2",
   "Continue plugin",
   "本地化大模型",
@@ -11,6 +11,7 @@ tags: [
   "自然語言處理",
   "Cursor 替代品"
 ]
+tags: [LLama, Continue]
 ---
 
 ## [LLama 3.2](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) 模型介紹
