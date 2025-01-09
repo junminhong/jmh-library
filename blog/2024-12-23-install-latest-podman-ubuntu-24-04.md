@@ -64,6 +64,18 @@ sudo make install
 crun -v
 ```
 
+### add policy.json
+```bash
+vim ${HOME}/.config/containers/policy.json
+{
+  "default": [
+    {
+      "type": "insecureAcceptAnything"
+    }
+  ]
+}
+```
+
 ### Debug
 ```
 # check podman detail information
@@ -74,6 +86,10 @@ podman info --debug
 - 如果遇到這種訊息，可以忽略它 (If you encounter this message, you can ignore it)
 ```bash
 troff:<standard input>:213: warning [p 4, 2.0i]: cannot adjust line
+```
+- 假設你現在使用 Ubuntu 20.04、22.04，會需要安裝一些必要項目 (If you are using Ubuntu 20.04, 22.04, you will need to install some necessary items)
+```bash
+When building for 20.04 and 22.04, you will need to compile also conmon and the networking (netavark/aardvark-dns, passt)
 ```
 
 **Translated with the help of Google Translate.**
