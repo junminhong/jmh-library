@@ -1,6 +1,6 @@
 ## About me
 ### **My name is Jasper 🚀**
-- Over 2 years of experience in full-stack development, with a broad understanding of software engineering principles and cloud technologies.
+- Over 3 years of experience in full-stack development, with a broad understanding of software engineering principles and cloud technologies.
 - Currently deepening expertise in software development and cloud infrastructure, while also exploring areas like embedded systems and DevOps practices to diversify technical capabilities.
 
 ### Learning Goals
@@ -16,7 +16,7 @@
 
 ## My CV
 ### SUMMARY OF QUALIFICATIONS
-- Over 2 years of experience in full-stack development, with a broad understanding of software engineering principles and cloud technologies.
+- Over 3 years of experience in full-stack development, with a broad understanding of software engineering principles and cloud technologies.
 - Adaptable to dynamic tech environments, focusing on enhancing product stability, improving system efficiency, and fostering team collaboration.
 - Actively engaged in exploring cloud and backend technologies, contributing to tech community knowledge sharing, and continuously learning new skills.
 - Currently deepening expertise in software development and cloud infrastructure, while also exploring areas like embedded systems and DevOps practices to diversify technical capabilities.
@@ -79,4 +79,3 @@
 ### EDUCATION
 - Southern Taiwan University of Science and Technology, 2017 - 2021
   -  Department of Information Management, Bachelor
-
