@@ -29,7 +29,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-TW',
-    locales: ['en', 'zh-TW'],
+    locales: ['zh-TW'],
   },
   plugins: ["./src/plugins/tailwind-config.js"],
   // plugins: [
