@@ -31,7 +31,22 @@ const config = {
     defaultLocale: 'zh-TW',
     locales: ['zh-TW'],
   },
-  plugins: ["./src/plugins/tailwind-config.js"],
+  plugins: [
+    "./src/plugins/tailwind-config.js",
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'labs',
+        routeBasePath: 'labs',
+        path: './labs',
+        blogTitle: 'Tech Labs',
+        blogDescription: 'Tech Labs 是我的技術實驗室，隨時記錄各種開發、程式實驗、隨手筆記與 Side Project 靈感。想看開源亂玩、最新技術測試、還有那些半夜寫程式的小發現？全部都在這裡，一起來解鎖開發者的實驗日常！',
+        showReadingTime: true,
+        blogSidebarTitle: 'Lab Posts',
+        blogSidebarCount: 'ALL',
+      },
+    ],
+  ],
   // plugins: [
   //   [
   //     "@docusaurus/plugin-content-docs",
@@ -103,6 +118,7 @@ const config = {
             label: 'Notes',
             to: '/notes'
           },
+          { to: '/labs', label: 'Tech Labs', position: 'left' },
           // {to: '/blog', label: 'Blog', position: 'left'},
           // {
           //   sidebarId: 'labSidebar',
