@@ -1,6 +1,6 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-const {themes} = require('prism-react-renderer');
+const { themes } = require('prism-react-renderer');
 const lightTheme = themes.github;
 const darkTheme = themes.dracula;
 
@@ -31,7 +31,7 @@ const config = {
     defaultLocale: 'zh-TW',
     locales: ['en', 'zh-TW'],
   },
-
+  plugins: ["./src/plugins/tailwind-config.js"],
   // plugins: [
   //   [
   //     "@docusaurus/plugin-content-docs",
@@ -87,7 +87,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      metadata: [{name: 'keywords', content: 'wowkit, blog, tutorial, dev'}],
+      metadata: [{ name: 'keywords', content: 'wowkit, blog, tutorial, dev' }],
       image: 'img/avatar.png',
       navbar: {
         title: '科技求生記',
@@ -167,10 +167,10 @@ const config = {
       prism: {
         theme: lightTheme,
         darkTheme: darkTheme,
-        additionalLanguages: ['ruby', 'go', 'bash', 'json', 'diff'],
+        additionalLanguages: ['ruby', 'go', 'bash', 'json', 'diff', 'c'],
       },
     }),
-  
+
   // for docusaurus/faster
   future: {
     experimental_faster: true,
